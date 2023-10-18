@@ -8,7 +8,8 @@ function()
     // reset griglia al click
     squareContainer.innerHTML = '';
     // generare n numeri elementi
-    let squareNumber = 100;
+    let difficulty = document.getElementById('difficulty').value;
+    let squareNumber = difficulty;
     for(let i = 1; i <= squareNumber; i ++)
     {
         let square = getSquare(i, squareNumber);
