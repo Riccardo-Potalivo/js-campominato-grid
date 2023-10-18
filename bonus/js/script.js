@@ -5,7 +5,8 @@ btn.addEventListener('click',
 function()
 {
     const squareContainer = document.getElementById('grid_container');
-
+    // reset griglia al click
+    squareContainer.innerHTML = '';
     // generare n numeri elementi
     for(let i = 1; i <= 100; i ++)
     {
