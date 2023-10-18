@@ -21,5 +21,13 @@ function getSquare(squareIndex)
     const square = document.createElement('div');
     square.classList.add('square');
     square.innerHTML = squareIndex;
+
+    // cambio sfondo al click
+    square.addEventListener('click',
+    function()
+    {
+        square.classList.add('active');
+        console.log(squareIndex)
+    });
     return square;
 };
