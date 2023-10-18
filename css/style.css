@@ -25,3 +25,20 @@ utility
 /***************************************************
 general
 ***************************************************/
+#grid_container
+{
+    width: 600px;
+    aspect-ratio: 1;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square
+{
+    height: 100px;
+    aspect-ratio: 1;
+    background-color: green;
+    border: solid black 3px;
+}
